@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ~/Seafile/MaBox/git/csa/cinnamon-spices-applets # replace with the right directory
+git fetch upstream
+git pull upstream master
+git push -f origin HEAD
