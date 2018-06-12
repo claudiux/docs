@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Seafile/MaBox/git/csa/cinnamon-spices-applets # change for right directory
+git remote add upstream https://github.com/linuxmint/cinnamon-spices-applets.git
