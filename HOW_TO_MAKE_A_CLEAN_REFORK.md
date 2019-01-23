@@ -22,25 +22,22 @@ Execute into a terminal:
 
 ### Make a local clone
 
-```mkdir -p ~/git/csa
-
+```
+mkdir -p ~/git/csa
 cd ~/git/csa
-
 git clone -b master --single-branch https://github.com/your_github_id/cinnamon-spices-applets master
-
 cd master
-
 git config --global user.name "your_github_id"
-
 git config --global user.email "your@email"
-
-git remote -v```
+git remote -v
+```
 
 The last command should return:
 
-```origin	https://github.com/claudiux/cinnamon-spices-applets.git (fetch)
-
-origin	https://github.com/claudiux/cinnamon-spices-applets.git (push)```
+```
+origin	https://github.com/claudiux/cinnamon-spices-applets.git (fetch)
+origin	https://github.com/claudiux/cinnamon-spices-applets.git (push)
+```
 
 Now, add the linuxmint/cinnamon-spices-applets as upstream:
 
@@ -48,25 +45,22 @@ Now, add the linuxmint/cinnamon-spices-applets as upstream:
 
 The command `git remote -v` should return now:
 
-```origin	https://github.com/your_github_id/cinnamon-spices-applets.git (fetch)
-
+```
+origin	https://github.com/your_github_id/cinnamon-spices-applets.git (fetch)
 origin	https://github.com/your_github_id/cinnamon-spices-applets.git (push)
-
 upstream	https://github.com/linuxmint/cinnamon-spices-applets.git (fetch)
-
-upstream	https://github.com/linuxmint/cinnamon-spices-applets.git (push)```
-
+upstream	https://github.com/linuxmint/cinnamon-spices-applets.git (push)
+```
 ### Refork now!
 
 Execute the following commands (you can create a script named `refork-csa.sh` containing them):
 
-```cd ~/git/csa/master
-
+```
+cd ~/git/csa/master
 git fetch upstream
-
 git pull upstream master
-
-git push -f origin HEAD```
+git push -f origin HEAD
+```
 
 You must enter your GitHub id, then your GitHub password.
 
@@ -84,9 +78,10 @@ Create a branch from master named SpicesUpdate-nl.
 
 On your computer:
 
-```cd ~/git/
-
-git clone -b SpicesUpdate-nl --single-branch https://github.com/your_github_id/cinnamon-spices-applets SpicesUpdate-nl```
+```
+cd ~/git/
+git clone -b SpicesUpdate-nl --single-branch https://github.com/your_github_id/cinnamon-spices-applets SpicesUpdate-nl
+```
 
 A `SpicesUpdate-nl` folder is created, containing your branch.
 
@@ -96,17 +91,14 @@ Open with poEdit the SpicesUpdate@claudiux.pot file. Create a new Dutch translat
 
 In a terminal:
 
-```cd ~/git/SpicesUpdate-nl/SpicesUpdate@claudiux/po
-
+```
+cd ~/git/SpicesUpdate-nl/SpicesUpdate@claudiux/po
 git status
-
 git add nl.po
-
 git status
-
 git commit -m "SpicesUpdate@claudiux: Dutch translation. New nl.po file."
-
-git push origin SpicesUpdate-nl```
+git push origin SpicesUpdate-nl
+```
 
 Open https://github.com/your_github_id/cinnamon-spices-applets.git and click on `Compare and pull request`. Comment and validate your pull request.
 
