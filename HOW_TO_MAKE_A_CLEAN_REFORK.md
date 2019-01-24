@@ -72,7 +72,7 @@ Then, go to your own repository; the master branch is now up to date!
 
 Supposing you want to propose the Dutch translation (for example) of the Spices Update applet messages.
 
-Open https://github.com/your_github_id/cinnamon-spices-applets.git.
+Open https://github.com/your_github_id/cinnamon-spices-applets.
 
 Create a branch from master named SpicesUpdate-nl.
 
