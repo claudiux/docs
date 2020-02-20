@@ -25,8 +25,8 @@ Execute into a terminal:
 ```
 mkdir -p ~/git/csa
 cd ~/git/csa
-git clone -b master --single-branch https://github.com/your_github_id/cinnamon-spices-applets master
-cd master
+git clone -b master --single-branch https://github.com/your_github_id/cinnamon-spices-applets cinnamon-spices-applets
+cd cinnamon-spices-applets
 git config --global user.name "your_github_id"
 git config --global user.email "your@email"
 git remote -v
@@ -53,7 +53,7 @@ upstream	https://github.com/linuxmint/cinnamon-spices-applets.git (push)
 ```
 ### Refork now!
 
-Execute the following commands (you can create a script named `refork-csa.sh` containing them):
+Execute the following commands (you can create a script named `refork-csa` containing them):
 
 ```
 cd ~/git/csa/master
@@ -107,3 +107,31 @@ Some hours or days later, your pull request (PR) is accepted (merged) or rejecte
 You can complete or modify your file(s) with `git add ...`, `git commit -m "..."` and `git push ...` while your PR is not merged into the master branch of linuxmint/cinnamon-spices-applets.
 
 Once merged, you can delete your own SpicesUpdate-nl branch on GitHub.
+
+### Tips
+I created a `bin` directory in my home directory to put my own scripts there.
+```
+mkdir -p ~/bin
+```
+I added these line in my `~/.profile` file:
+```
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+```
+To take these lines into account: `source ~/.profile`
+
+
+I created the `~/bin/refork-csa` script, containing:
+```
+#!/bin/sh
+cd ~/git/csa/cinnamon-spices-applets
+git fetch upstream
+git pull upstream master
+git push -f origin HEAD
+```
+I set this script executable: `chmod +x ~/bin/refork-csa`
+
+Whenever I want to update my fork, I run this script.
