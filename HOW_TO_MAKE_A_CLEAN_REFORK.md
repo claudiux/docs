@@ -114,7 +114,7 @@ On your computer:
 
 ```
 cd ~/git/
-git clone -b SpicesUpdate-nl --single-branch https://github.com/your_github_id/cinnamon-spices-applets SpicesUpdate-nl
+git clone -b SpicesUpdate-nl --single-branch https://github.com/YOUR_GITHUB_ID/cinnamon-spices-applets SpicesUpdate-nl
 ```
 
 A `SpicesUpdate-nl` subfolder is created in your folder `~/git`, containing your branch.
