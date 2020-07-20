@@ -2,7 +2,7 @@
 
 ## Summary
 
-You have forked a GitHub repository into your own GitHub account. But your fork is now too old and you should want to refork the master branch of this repository without destroying all the branches you have created.
+You have forked a GitHub repository into your own GitHub account. But your fork is now too old and you should want to refork the master branch of this repository without destroying all the branches you have already created.
 
 ## Example
 
