@@ -140,4 +140,4 @@ Some hours or days later, your pull request (PR) is accepted (merged) or rejecte
 
 You can complete or modify your file(s) with `git add ...`, `git commit -m "..."` and `git push origin SpicesUpdate-nl` while your PR is not merged into the master branch of linuxmint/cinnamon-spices-applets.
 
-Once merged, you can delete your SpicesUpdate-nl branch on GitHub and on your computer.
+Once merged, you can delete your SpicesUpdate-nl branch on GitHub and the SpicesUpdate-nl folder on your computer.
