@@ -121,12 +121,12 @@ A `SpicesUpdate-nl` subfolder is created in your folder `~/git`, containing your
 
 Open with nemo the folder `~/git/SpicesUpdate-nl/SpicesUpdate@claudiux/files/SpicesUpdate@claudiux/po`.
 
-Open with poEdit the SpicesUpdate@claudiux.pot file. Create a new Dutch translation and save it in the nl.po file.
+Open with poEdit the SpicesUpdate@claudiux.pot file. Create a new Dutch translation and save it. A new `nl.po` file was created into the same folder.
 
 In a terminal:
 
 ```
-cd ~/git/SpicesUpdate-nl/SpicesUpdate@claudiux/po
+cd ~/git/SpicesUpdate-nl/SpicesUpdate@claudiux/files/SpicesUpdate@claudiux/po
 git status
 git add nl.po
 git status
