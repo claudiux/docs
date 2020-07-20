@@ -17,8 +17,10 @@ Before to propose your code (or translation, or any kind of file) to the cinnamo
 ### Install git
 
 Execute into a terminal:
-  `apt update`
-  `apt install git`
+```
+apt update
+apt install git
+```
 
 ### Make a local clone
 
