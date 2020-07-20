@@ -8,7 +8,7 @@ You have forked a GitHub repository into your own GitHub account. But your fork 
 
 For example, you have forked the _linuxmint/cinnamon-spices-applets_ repository (https://github.com/linuxmint/cinnamon-spices-applets).
 
-This fork is at https://github.com/**your_github_id**/cinnamon-spices-applets.
+This fork is at https://github.com/YOUR_GITHUB_ID/cinnamon-spices-applets.
 
 Before to propose your code (or translation, or any kind of file) to the cinnamon-spices-applets team, you should have in your own repository the latest version of the master branch of linuxmint/cinnamon-spices-applets.
 
