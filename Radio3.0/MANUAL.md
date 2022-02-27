@@ -32,9 +32,9 @@ With Radio3.0 you can:
   1. [Dependencies](#Dependencies)
 
   1. [Manual installation of the dependencies](#DepManualInstall)  
-    1. [Linux Mint, Ubuntu, Debian](#DepMint)  
-    1. [Arch](#DepArch)  
-    1. [Fedora](#DepFedora)  
+      1. [Linux Mint, Ubuntu, Debian](#DepMint)  
+      1. [Arch](#DepArch)  
+      1. [Fedora](#DepFedora)  
 
   1. [How to install the Radio3.0 applet?](#InstallApplet)  
     1. [Using the Cinnamon System Settings](#InstallAppletCS)  
