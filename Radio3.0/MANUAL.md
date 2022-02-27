@@ -406,7 +406,7 @@ To test 'TheBlast.fm', check its **♪** box then click on the **♪ Play the ne
 [pencil_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_edit_button.png
 [unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_checkbox_symbolic_button.png
 [moveup_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_go_up_button.png
-[movedown_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveDown_button.png
+[movedown_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_go_down_button.png
 [top_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Top_button.png
 [bottom_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Bottom_button.png
 [prevcat_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_PrevCat_button.png
