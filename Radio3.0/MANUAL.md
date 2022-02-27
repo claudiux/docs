@@ -56,10 +56,10 @@ With Radio3.0 you can:
 
   1. [Settings](#Settings)  
       1. [Radios](#RadiosTab)  
-        1. [Stations and Categories on the menu](#RadiosTabStations)  
-        1. [Moving selected stations/categories](#RadiosTabMoving)  
-        1. [Save and restore](#RadiosTabSaveRestore)  
-        1. [Update your list using the Radio Database](#RadiosTabUpdate)  
+        * [Stations and Categories on the menu](#RadiosTabStations)  
+        * [Moving selected stations/categories](#RadiosTabMoving)  
+        * [Save and restore](#RadiosTabSaveRestore)  
+        * [Update your list using the Radio Database](#RadiosTabUpdate)  
       1. [Search](#SearchTab)  
       1. [Import](#ImportTab)  
       1. [Menu](#MenuTab)  
@@ -289,9 +289,9 @@ The right part contains tools to explore your list:
 
   * ![Bottom button][bottom_button] to go to the **bottom** of your list.
 
-  * ![Previous Category button][prevcat_button] to go to the **previous Category**.
+  * ![Previous Category button][prevcat_button] to go to the **previous Category** (or **next Category** for right-to-left readers).
 
-  * ![Next Category button][nextcat_button] to go to the **next Category**.
+  * ![Next Category button][nextcat_button] to go to the **next Category** (or **previous Category** for right-to-left readers).
 
 ![Sub-menu My Radio Stations][sshot_menu_myradiostations]{ width=350px }
 
