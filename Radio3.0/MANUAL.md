@@ -401,7 +401,7 @@ To test 'TheBlast.fm', check its **♪** box then click on the **♪ Play the ne
 [sshot_radios_tab2]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_RadiosTab_2.png
 [sshot_radios_tab3]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_RadiosTab_3.png
 [sshot_radios_tab4]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_RadiosTab_4.png
-[plus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Plus_button.png
+[plus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_add.png
 [minus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Minus_button.png
 [pencil_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Pencil_button.png
 [unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Unchecked_button.png
