@@ -1,3 +1,4 @@
+<!-- Required extensions: sane_lists, headerid(level=4) -->
 # Radio3.0 - Manual
 
 ## Author: Claudiux (@claudiux on Github)
