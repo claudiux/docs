@@ -60,12 +60,13 @@ With Radio3.0 you can:
         * [Moving selected stations/categories](#RadiosTabMoving)  
         * [Save and restore](#RadiosTabSaveRestore)  
         * [Update your list using the Radio Database](#RadiosTabUpdate)  
-      1. [Search](#SearchTab)  
-      1. [Import](#ImportTab)  
-      1. [Menu](#MenuTab)  
-      1. [Network](#NetworkTab)  
-      1. [Behavior](#BehaviorTab)  
-      1. [Recording](#RecordingTab)  
+      2. [Search](#SearchTab)  
+      3. [Import](#ImportTab)  
+      4. [Menu](#MenuTab)  
+      5. [Network](#NetworkTab)  
+      6. [Behavior](#BehaviorTab)  
+      7. [Recording](#RecordingTab)  
+      8. [Scheduling](#SchedulingTab)
 
 ***
 <a name="Dependencies"></a>
