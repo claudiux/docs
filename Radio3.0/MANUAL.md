@@ -273,7 +273,7 @@ Below this list, the left part contains **tools** to modify the contents of the 
 
   * ![Pencil button][pencil_button] to **edit** the selected item.
 
-  * ![Unchecked button][unchecked_button]{ align=middle ; width=30px } to **unselect** any item.
+  * ![Unchecked button][unchecked_button] to **unselect** any item.
 
   * ![Move up button][moveup_button]{ align=middle ; width=30px } to **move up** the selected item.
 
@@ -404,7 +404,7 @@ To test 'TheBlast.fm', check its **♪** box then click on the **♪ Play the ne
 [plus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_add_button.png
 [minus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_remove_button.png
 [pencil_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_edit_button.png
-[unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Unchecked_button.png
+[unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_checkbox_symbolic_button.png
 [moveup_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveUp_button.png
 [movedown_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveDown_button.png
 [top_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Top_button.png
