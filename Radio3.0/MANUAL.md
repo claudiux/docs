@@ -275,23 +275,23 @@ Below this list, the left part contains **tools** to modify the contents of the 
 
   * ![Unchecked button][unchecked_button] to **unselect** any item.
 
-  * ![Move up button][moveup_button]{ align=middle ; width=30px } to **move up** the selected item.
+  * ![Move up button][moveup_button] to **move up** the selected item.
 
-  * ![Move down button][movedown_button]{ align=middle ; width=30px } to **move down** the selected item.
+  * ![Move down button][movedown_button] to **move down** the selected item.
 
 The right part contains tools to explore your list:
 
-  * ![Top button][top_button]{ align=middle ; width=30px } to go to the **top** of your list.
+  * ![Top button][top_button] to go to the **top** of your list.
 
-  * ![Move up button][moveup_button]{ align=middle ; width=30px } to go to the **previous page**.
+  * ![Move up button][moveup_button] to go to the **previous page**.
 
-  * ![Move down button][movedown_button]{ align=middle ; width=30px } to go to the **next page**.
+  * ![Move down button][movedown_button] to go to the **next page**.
 
-  * ![Bottom button][bottom_button]{ align=middle ; width=30px } to go to the **bottom** of your list.
+  * ![Bottom button][bottom_button] to go to the **bottom** of your list.
 
-  * ![Previous Category button][prevcat_button]{ align=middle ; width=30px } to go to the **previous Category**.
+  * ![Previous Category button][prevcat_button] to go to the **previous Category**.
 
-  * ![Next Category button][nextcat_button]{ align=middle ; width=30px } to go to the **next Category**.
+  * ![Next Category button][nextcat_button] to go to the **next Category**.
 
 ![Sub-menu My Radio Stations][sshot_menu_myradiostations]{ width=350px }
 
@@ -405,7 +405,7 @@ To test 'TheBlast.fm', check its **♪** box then click on the **♪ Play the ne
 [minus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_remove_button.png
 [pencil_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_edit_button.png
 [unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_checkbox_symbolic_button.png
-[moveup_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveUp_button.png
+[moveup_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_go_up_button.png
 [movedown_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveDown_button.png
 [top_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Top_button.png
 [bottom_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Bottom_button.png
