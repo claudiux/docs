@@ -269,7 +269,7 @@ Below this list, the left part contains **tools** to modify the contents of the 
 
   * ![Plus button][plus_button] to **add** a Category (only fill in its name) or Station (fill in at least its name and its streaming URL). The added item is at the very top of the list.
 
-  * ![Minus button][minus_button]{ align=middle ; width=30px } to **remove** the selected item. (You select an item by clicking on it.)
+  * ![Minus button][minus_button] to **remove** the selected item. (You select an item by clicking on it.)
 
   * ![Pencil button][pencil_button]{ align=middle ; width=30px } to **edit** the selected item.
 
@@ -402,7 +402,7 @@ To test 'TheBlast.fm', check its **♪** box then click on the **♪ Play the ne
 [sshot_radios_tab3]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_RadiosTab_3.png
 [sshot_radios_tab4]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_RadiosTab_4.png
 [plus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_add_button.png
-[minus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Minus_button.png
+[minus_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/R3_list_remove_button.png
 [pencil_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Pencil_button.png
 [unchecked_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_Unchecked_button.png
 [moveup_button]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_MoveUp_button.png
