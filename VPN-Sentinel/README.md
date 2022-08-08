@@ -57,7 +57,7 @@ Enter your public key (and only this one!) in your account on your Wireguard ser
 
 Your provider gave you at least one configuration file with the extension `.conf`.
 
-Put all these `.conf` files into `~/WIREGUARD/&&&&wireguard-configs`. No file name should contain spaces. The file name (before .conf) must not contain more than **15** characters.
+Copy all these `.conf` files into `~/WIREGUARD/wireguard-configs`. No file name should contain spaces. The file name (before .conf) must not contain more than **15** characters.
 
 In the directory `~/WIREGUARD/`, create a bash script `modify-conf.sh` like this:
 
@@ -89,17 +89,29 @@ for f in $(ls -1A wireguard-configs/*.conf); do {
 
 Make this script executable: `chmod +x modify-conf.sh`
 
-
-
 N.B.
 
   * If your provider gave you a *preshared key*, add a line `PRESHAREDKEY="..."` before *for* and replace the last line beginning by *sed* by this one: `sed "s/YOUR_PRESHARED_KEY/${PRESHAREDKEY}/" $f.temp2 > $f`
   * **Adapt the content of this script** to that of your configuration files, replacing *YOUR_PRIVATE_KEY* etc with the words you find there.
   * If you only have a few configuration files, don't complicate your life with a script, but rather use the good old copy/paste.
 
-### Using these .conf files
+### Using these .conf files with NetworkManager
 
-Create in the directory 
+List all your conf files:
+
+```
+cd ~/WIREGUARD/
+ls -1A wireguard-configs/  | tr "\n" " "
+```
+
+The last command produces something like this:
+`AuSydney.conf BrRiodeJaneiro.conf CaEast.conf `
+
+Create in the directory `~/WIREGUARD/` the bash script `insert-in-NM.sh` like below.
+
+**The line beginning by** `configs=` **must be modified**. It structure is: configs="FileName.conf|ConnectionName FileName.conf|ConnectionName etc".
+
+Please note: No more than 15 characters (and no space) for each ConnectionName!
 
 ```
 #!/bin/bash
