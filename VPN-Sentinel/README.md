@@ -35,7 +35,8 @@ Or on [other distros](https://www.wireguard.com/install/#installation).
 
 Use the following commands:
 
-```cd ~/WIREGUARD
+```
+cd ~/WIREGUARD
 wg genkey | tee privatekey | wg pubkey > publickey
 chown 600 privatekey publickey
 ```
@@ -43,7 +44,8 @@ chown 600 privatekey publickey
 
 To know your keys:
 
-```cat publickey
+```
+cat publickey
 cat privatekey
 ```
 
@@ -59,7 +61,8 @@ Put all these `.conf` files into `~/WIREGUARD/&&&&wireguard-configs`. No file na
 
 In the directory `~/WIREGUARD/`, create a bash script `modify-conf.sh` like this:
 
-```#!/bin/sh
+```
+#!/bin/sh
 
 PUBLICKEY="here your public key"
 
@@ -98,7 +101,8 @@ N.B.
 
 Create in the directory 
 
-```#!/bin/bash
+```
+#!/bin/bash
 configs="AuSydney.conf|Au-Sydney(W) BrRiodeJaneiro.conf|Br-RiodeJan(W) CaEast.conf|Ca-East(W)"
 
 wgpath="$HOME/WIREGUARD/wireguard-configs"
