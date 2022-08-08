@@ -109,7 +109,7 @@ The last command produces something like this:
 
 Create in the directory `~/WIREGUARD/` the bash script `insert-in-NM.sh` like below.
 
-**The line beginning by** `configs=` **must be modified**. It structure is: configs="FileName.conf|ConnectionName FileName.conf|ConnectionName etc".
+**The line beginning by** `configs=` **must be modified**. Its structure is: configs="FileName.conf|ConnectionName FileName.conf|ConnectionName etc".
 
 Please note: No more than 15 characters (and no space) for each ConnectionName!
 
@@ -133,3 +133,9 @@ do
 done
 ```
 
+Make this script executable and execute it:
+
+```
+chmod +x insert-in-NM.sh
+./insert-in-NM.sh
+```
