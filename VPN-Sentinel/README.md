@@ -35,18 +35,17 @@ Or on [other distros](https://www.wireguard.com/install/#installation).
 
 Use the following commands:
 
-`cd ~/WIREGUARD`
-
-`wg genkey | tee privatekey | wg pubkey > publickey`
-
-`chown 600 privatekey publickey`
+```cd ~/WIREGUARD
+wg genkey | tee privatekey | wg pubkey > publickey
+chown 600 privatekey publickey
+```
 
 
 To know your keys:
 
-`cat publickey`
-
-`cat privatekey`
+```cat publickey
+cat privatekey
+```
 
 Enter your public key (and only this one!) in your account on your Wireguard service provider's website.
 
