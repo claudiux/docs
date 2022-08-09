@@ -8,7 +8,7 @@ VPN-Sentinel monitors the stability of your **Wireguard** and **VPN** links, and
 
 (Hereafter, "VPN" also includes Wireguard.)
 
-## Types of VPNs Successfully Tested
+## Types of VPNs Successfully Tested with VPN-Sentinel
 
 | Type of VPN | VPN-Sentinel version |
 |-------------|----------------------|
@@ -22,4 +22,8 @@ If you have successfully tested other types of VPNs, please let the Author know 
 ## Features
 
 VPN-Sentinel displays an icon whose color changes depending on the status of the VPN link (connected, disconnected, transient); you can choose these colors.
+
+Next to the icon, you can display the flag of the country where the VPN server you are connected to is located.
+
+When hovering over or clicking on the icon, the following information is displayed: the name of the VPN, the interface used, the time (and possibly the date) since which the link has been active.
 
