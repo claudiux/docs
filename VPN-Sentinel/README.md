@@ -39,3 +39,19 @@ VPN-Sentinel can manage each of the Internet applications: possibility of automa
 
 ## Settings
 
+The VPN-Sentinel Settings are accessible via its contextual menu (right click on its icon).
+
+Five tabs are available:
+
+  - **Notifications**
+    * Flags
+    * Sound Alert
+    * Icon Colors
+  - **VPN**
+    * VPN Policy
+    * Activity Log
+  - **Flags**
+    * Flag list
+  - **Keyboard Shortcuts**
+  - **VPN-related Apps**
+
