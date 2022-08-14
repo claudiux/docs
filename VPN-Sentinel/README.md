@@ -27,3 +27,15 @@ The flag of the country where the VPN server you are connected to is located can
 
 When hovering over or clicking on the icon, the following information is displayed: the name of the VPN, the interface used, the time (and possibly the date) since which the link has been active.
 
+VPN-Sentinel can emit a sound when the VPN link becomes inactive.
+
+VPN-Sentinel allows you, as soon as it starts, to automatically connect to the last VPN you used, if you wish.
+
+Events concerning the VPN as well as the applications concerned can be logged.
+
+A hotkey can be set for connecting to the last VPN used and disconnecting. (Alt+V by default.)
+
+VPN-Sentinel can manage each of the Internet applications: possibility of automatic start when a VPN is active, stop when it becomes inactive, stop after a few seconds if no VPN is active.
+
+## Settings
+
