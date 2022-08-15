@@ -44,7 +44,7 @@ The VPN-Sentinel Settings are accessible via its contextual menu (right click on
 Five tabs are available:
 
   - **Notifications**
-    * Flags
+    * Flag
     * Sound Alert
     * Icon Colors
   - **VPN**
