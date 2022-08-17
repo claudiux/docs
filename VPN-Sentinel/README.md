@@ -47,6 +47,7 @@ Four tabs are available:
     * Flag
       * Whether or not to display the VPN server's country flag next to the icon?
     * Sound Alert
+      * Whether or not to emit a sound alert when VPN link becomes idle?
     * Icon Colors
   - **VPN**
     * Connection Policy
