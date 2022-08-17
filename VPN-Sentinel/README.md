@@ -45,6 +45,7 @@ Four tabs are available:
 
   - **Notifications**
     * Flag
+     * Whether or not to display the VPN server's country flag next to the icon?
     * Sound Alert
     * Icon Colors
   - **VPN**
