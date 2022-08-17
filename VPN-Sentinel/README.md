@@ -48,10 +48,9 @@ Five tabs are available:
     * Sound Alert
     * Icon Colors
   - **VPN**
-    * VPN Policy
+    * Connection Policy
     * Activity Log
   - **Flags**
     * Flag list
-  - **Keyboard Shortcuts**
   - **VPN-related Apps**
 
