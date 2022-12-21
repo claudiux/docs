@@ -500,6 +500,8 @@ This tab allows you to choose whether or not to display certain items in the thi
   + The number of *Recently Played Stations*. A value of 0 disables the display of this list.
   + System items, like *Configure...* and *Sound Settings* (which are already in the contextual menu).
 
+Privacy: If you want to empty your Recently Played Stations list at startup or now, check the box or click on the button.
+
 Useful only for developers: Whether or not to display the *Reload this applet* item in the contextual menu.
 
 [All Tabs](#Settings)
@@ -542,12 +544,34 @@ Choose the color of the symbolic icon when the radio is on, when the radio is of
 
 ![Network Settings Screenshot][sshot_network_settings]{ width=700px }
 
+Network Quality:
+
+  * High: The recordings will be made from a copy of the stream, which guarantees optimal quality.
+  * Low: To save your bandwidth, recordings will be made from your audio output; but some sounds can pollute your recordings.
+
+Monitor the network: When checked, the station played will continue after changing the network (VPN, Wifi...)
+
+Proxy: Empty by default. Format: http://[user:pass@]URL[:port]. If empty, the environment variables *http_proxy* and *ALL_PROXY* will be used if present. If set, this proxy will not be used for https requests.
+
+Database Info (read only): The URL of the radio database actually used.
+
 [All Tabs](#Settings)
 
 <a name="RecordingTab"></a>
 ### Recording
 
 ![Recording Settings Screenshot][sshot_recording_settings]{ width=700px }
+
+Path to the folder that will contain your future recordings: Choose this folder.
+
+Set this path to default one, which is `~/Music/Radio3.0`. (_Music_ is localized.)
+
+Recording format: FLAC, MP3 (default), OGG, RAW or WAV.
+
+Way to stop recording (please note that this choice will have no effect on any current recording, but on subsequent ones.):
+
+  * automatically, when the current song ends: works correctly only if the stream contains the title of the current song.
+  * manually; thus, several recordings can follow one another: you must stop yourself all recording.
 
 [All Tabs](#Settings)
 
@@ -572,6 +596,18 @@ Extract soundtrack from YouTube video: Visiting YouTube, right-click on a video 
 
 <a name="SchedulingTab"></a>
 ### Scheduling
+
+![Scheduling Settings1 Screenshot][sshot_sched1_settings]{ width=700px }
+
+Select the radio, date, time and duration of the recording you want to schedule, then click on the button.
+
+Your Cinnamon session does not need to be open for recording to occur; but your computer must be turned on, of course.
+
+You will be notified of the start and end of each recording.
+
+The list of scheduled recordings appears in the bellowing list. You can cancel any of them checking their _Remove?_ box and clicking the _Remove selected items_ button.
+
+![Scheduling Settings2 Screenshot][sshot_sched2_settings]{ width=700px }
 
 [All Tabs](#Settings)
 
@@ -722,6 +758,10 @@ Each entry is described by a set of 3 successive lines. The role of each of them
 [sshot_network_settings]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Radio30_NetworkSettings.png
 
 [sshot_yt_settings]: https://raw.githubusercontent.com/claudiux/docs/master/Radio3.0/screenshots/Radio30_YT_Tab.png
+
+[sshot_sched1_settings]: https://raw.githubusercontent.com/claudiux/docs/master/Radio3.0/screenshots/Radio30_SchedulingTab_1.png
+
+[sshot_sched2_settings]: https://raw.githubusercontent.com/claudiux/docs/master/Radio3.0/screenshots/Radio30_SchedulingTab_2.png
 
 [shoutcast]: https://directory.shoutcast.com/
 [shoutcast_baroque]: https://github.com/claudiux/docs/raw/master/Radio3.0/screenshots/Shcst1.png
